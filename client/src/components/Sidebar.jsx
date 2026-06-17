@@ -15,7 +15,7 @@ export default function Sidebar({ open, setOpen }) {
   const { user } = useAuth();
 
   return (
-    <aside className={`fixed left-0 top-0 h-full z-40 transition-all duration-300 ${open ? 'w-64' : 'w-20'} bg-gradient-to-b from-[#0f172a] via-[#1e293b] to-[#0f172a] border-r border-slate-700/50`}>
+    <aside className={`frelative h-screen shrink-0 transition-all duration-300 ${open ? 'w-64' : 'w-20'} bg-gradient-to-b from-[#0f172a] via-[#1e293b] to-[#0f172a] border-r border-slate-700/50`}>
       {/* Logo */}
       <div className="flex items-center h-16 px-4 border-b border-slate-700/50">
         <div className="flex items-center gap-3">
